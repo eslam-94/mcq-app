@@ -35,7 +35,7 @@ export async function sendVerifyEmail(email: string) {
             text: `
                 You have requested to verfiy your email.
                 If you requested this reset, click the link below to verfiy your email:
-                https://course-app-one.vercel.app/verfication?token=${token}
+                https://mcq-app-xi.vercel.app/verfication?token=${token}
                 If you didn't request to vervify email, please ignore this email.
             `,
             //html: "<p>HTML version of the message</p>",
